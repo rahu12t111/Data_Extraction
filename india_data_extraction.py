@@ -24,7 +24,7 @@ fp.set_preference("browser.download.dir",os.getcwd())
 fp.set_preference("browser.helperApps.neverAsk.saveToDisk","application/xls;text/csv")#Download file and specifying its $$$ MIME type $$$.
  
 web = webdriver.Firefox(firefox_profile = fp)
-web.get('https://seismo.gov.in/MIS/riseq/Earthquake/archive')
+web.get('https://riseq.seismo.gov.in/riseq/earthquake/archive')
 
 time.sleep(2)
 
